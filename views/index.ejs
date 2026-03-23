@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Комментарии — защищённая версия</title>
+</head>
+<body>
+  <h1>Оставьте комментарий</h1>
+
+  <form action="/comment" method="POST">
+    <textarea name="text" rows="4" cols="50" required></textarea>
+    <br><br>
+    <button type="submit">Отправить</button>
+  </form>
+
+  <h2>Комментарии:</h2>
+
+  <% comments.forEach(comment => { %>
+    <div><%= comment %></div>
+    <hr>
+  <% }); %>
+</body>
+</html>
