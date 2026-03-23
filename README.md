@@ -1,4 +1,4 @@
-# XSS Demo на Node.js + Express
+# К.Т.2 - XSS Demo на Node.js + Express
 
 Учебный проект по дисциплине «Безопасность веб-приложений».
 
